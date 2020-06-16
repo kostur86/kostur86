@@ -35,10 +35,16 @@
             zoom: 8
           });
 
+          var image = {
+            url: "static/img/grocery.png",
+            size: new google.maps.Size(16, 16),
+            origin: new google.maps.Point(0, 0),
+            anchor: new google.maps.Point(8, 8)
+          };
 
          var marker = new google.maps.Marker({
              position: new google.maps.LatLng(-33.91721, 151.22630),
-             icon: "static/img/grocery.png",
+             icon: image,
              map: exports.map
            });
           
