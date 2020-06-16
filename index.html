@@ -34,6 +34,14 @@
             },
             zoom: 8
           });
+
+
+         var marker = new google.maps.Marker({
+             position: new google.maps.LatLng(-33.91721, 151.22630),
+             icon: "static/img/gorcery.png",
+             map: exports.map
+           });
+          
         }
 
         exports.initMap = initMap;
